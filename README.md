@@ -1,6 +1,6 @@
 # Enterprise Context-Aware Multi-Agent Pipeline
 
-**A scalable, event-driven multi-agent architecture for standardizing enterprise context across heterogeneous data sources.** Built with **LangGraph**, **FastAPI**, **Qdrant Vector DB**, and **Docker**.
+**A scalable, event-driven multi-agent architecture for standardizing enterprise context across heterogeneous data sources.** Built with **LangGraph**, **FastAPI**, **Qdrant Vector DB** and **Docker**.
 
 ---
 
