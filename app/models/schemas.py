@@ -13,3 +13,4 @@ class ContextResponse(BaseModel):
     status: str
     standardized_context: str
     agents_involved: List[str]
+    analytics: Dict[str, Any]

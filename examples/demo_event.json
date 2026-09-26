@@ -1,0 +1,10 @@
+{
+  "event_id": "DEMO-2026-001",
+  "source": "CustomerSupport",
+  "event_type": "urgent_escalation",
+  "content": "A fictional customer reports a production outage after a billing deployment. The support team requests an urgent review.",
+  "metadata": {
+    "customer_tier": "enterprise",
+    "region": "eu-west"
+  }
+}

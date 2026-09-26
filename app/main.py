@@ -16,7 +16,10 @@ def process_event(payload: EventPayload):
         "source": payload.source,
         "event_type": payload.event_type,
         "content": payload.content,
+        "metadata": payload.metadata or {},
         "context": "",
+        "retrieved_context": "",
+        "analytics": {},
         "agents_involved": []
     }
     
@@ -27,5 +30,6 @@ def process_event(payload: EventPayload):
         event_id=result["event_id"],
         status="success",
         standardized_context=result["context"],
-        agents_involved=result["agents_involved"]
+        agents_involved=result["agents_involved"],
+        analytics=result["analytics"]
     )
